@@ -1,0 +1,43 @@
+version: 1
+applications:
+  - appRoot: apps/shell
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - ls
+            - yarn install
+            - cd ../..
+            - yarn install
+        build:
+          commands:
+            - yarn nx build shell --verbose
+      artifacts:
+        #discard-paths: yes
+        baseDirectory: ../../dist/apps/shell
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+  - appRoot: apps/mfe1
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - ls
+            - yarn install
+            - cd ../..
+            - yarn install
+        build:
+          commands:
+            - ls
+            - yarn nx build mfe1
+      artifacts:
+        #discard-paths: yes
+        baseDirectory: ../../dist/apps/mfe1
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*

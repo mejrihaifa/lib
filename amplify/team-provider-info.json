@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-microfrontend-dev-140232-authRole",
+      "UnauthRoleArn": "arn:aws:iam::519918073452:role/amplify-microfrontend-dev-140232-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::519918073452:role/amplify-microfrontend-dev-140232-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-microfrontend-dev-140232-deployment",
+      "UnauthRoleName": "amplify-microfrontend-dev-140232-unauthRole",
+      "StackName": "amplify-microfrontend-dev-140232",
+      "StackId": "arn:aws:cloudformation:us-east-1:519918073452:stack/amplify-microfrontend-dev-140232/d5fa87e0-08fc-11ed-84e4-0a8ae3077a7f",
+      "AmplifyAppId": "d35dh13aoi1d0u"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d35dh13aoi1d0u",
+          "type": "manual"
+        }
+      }
+    }
+  },
+  "microfront": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-microfrontend-microfront-91508-authRole",
+      "UnauthRoleArn": "arn:aws:iam::519918073452:role/amplify-microfrontend-microfront-91508-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::519918073452:role/amplify-microfrontend-microfront-91508-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-microfrontend-microfront-91508-deployment",
+      "UnauthRoleName": "amplify-microfrontend-microfront-91508-unauthRole",
+      "StackName": "amplify-microfrontend-microfront-91508",
+      "StackId": "arn:aws:cloudformation:us-east-1:519918073452:stack/amplify-microfrontend-microfront-91508/3c9fe770-0d84-11ed-a576-0e617d111be1",
+      "AmplifyAppId": "dn0ajgta3qc1n"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dn0ajgta3qc1n",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
